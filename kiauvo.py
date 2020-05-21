@@ -109,8 +109,8 @@ def GetUVOInfo(try_cnt):
 
         log.info("UVO Get Distance URL success")
 
-        sleep(20)
-        driver.implicitly_wait(20)
+        sleep(60)
+        driver.implicitly_wait(60)
 
         err_log = 'get distance iframe'
 
@@ -127,8 +127,8 @@ def GetUVOInfo(try_cnt):
 
         log.info("UVO Get Driven information success")
 
-        sleep(20)
-        driver.implicitly_wait(20)
+        sleep(60)
+        driver.implicitly_wait(60)
 
         driver.switch_to.frame(driver.find_element_by_id("H_IFRAME"))
 
