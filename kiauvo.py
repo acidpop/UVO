@@ -270,26 +270,6 @@ def main():
 
     bot = telepot.Bot(bot_token)
 
-    print(kia_id)
-    print(kia_pw)
-    print(mysql_id)
-    print(mysql_pw)
-    print(mysql_db)
-    print(mysql_host)
-    print(sqlite_db_path)
-    print(bot_token)
-    print(bot_chat_id)
-
-    print(type(kia_id))
-    print(type(kia_pw))
-    print(type(mysql_id))
-    print(type(mysql_pw))
-    print(type(mysql_db))
-    print(type(mysql_host))
-    print(type(sqlite_db_path))
-    print(type(bot_token))
-    print(type(bot_chat_id))
-
     while isSucc == False and retry_cnt > 0:
         isSucc, data, errLog = GetUVOInfo(try_cnt)
         if isSucc:
